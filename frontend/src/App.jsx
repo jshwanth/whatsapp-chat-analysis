@@ -31,7 +31,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await axios.post("https://whatsapp-chat-analysis-aeof.onrender.com", formData, {
+      const response = await axios.post("https://whatsapp-chat-analysis-aeof.onrender.com/analyze", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setData(response.data);
