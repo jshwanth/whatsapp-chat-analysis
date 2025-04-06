@@ -1,0 +1,38 @@
+# Node.js (Vite/React)
+node_modules/
+dist/
+.env
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environment
+venv/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.tmp
+
+# Build output (optional if using build scripts)
+build/
+
+# Package-locks (optional if using yarn or pipenv)
+package-lock.json
+pipfile.lock
